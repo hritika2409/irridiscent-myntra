@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Width Image</title>
+    <link rel="stylesheet" href="pic.css">
+</head>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fullscreen-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh; /* Full viewport height */
+        background-color: #000; /* Optional: Black background to handle any extra space */
+    }
+
+    .fullscreen-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Ensure the whole image is displayed */
+    }
+</style>
+<body>
+    
+    <div class="fullscreen-image-container">
+        <img src="./mood/WhatsApp Image 2024-07-15 at 13.36.34_4fe2bd63.jpg" alt="Fullscreen Image" class="fullscreen-image">
+    </div>
+</body>
+</html>
